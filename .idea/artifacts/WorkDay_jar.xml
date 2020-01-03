@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WorkDay:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WorkDay_jar</output-path>
+    <root id="archive" name="WorkDay.jar">
+      <element id="module-output" name="WorkDay" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../calendar/lib/commons-codec-1.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../calendar/lib/commons-collections4-4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../calendar/lib/poi-3.17.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
