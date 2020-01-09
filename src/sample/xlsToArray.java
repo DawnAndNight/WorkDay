@@ -28,7 +28,7 @@ public class xlsToArray {
                 for (int k = theFirst,num = 0; k <= count; k++) {
                     // 获取该单元格相应的类型的值
                     HSSFCell c = row.getCell(num++);
-                    if(c == null){
+                    if(c == null||c.getStringCellValue().equals("")){
                         WorkDay[k-1] = "休";
                     }else
                         WorkDay[k-1] = c.getStringCellValue();
